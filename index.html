@@ -1,11 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <!-- header -->
+    <header class="header">
+        <img class="header__img" src="assets/img/logos/adl.png" alt="">
+        <h3 class="header__title poppins-bold">Blog FrontEnd</h3>
+    </header>
+    <!-- separacion -->
+    <hr>
+    <!-- main -->
+    <main class="main">
+        <h3 class="main__title poppins-bold">Novedades</h3>
+        <div class="main__container">
+            <div class="main__row-news">
+                <img class="main__row-news__img" src="assets/img/posts/bootstrap.png" alt="">
+                <p class="main__row-news__date poppins-regular">24 Noviembre, 2022</p>
+                <p class="main__row-news__texto poppins-bold">Modifica el tema de Bootstrap con variables CSS</p>
+                <footer class="main__row-news__footer">
+                    <img class="main__row-news__footer__logo" src="assets/img/logos/adl.png" alt="">
+                    <h3 class="main__row-news__footer__title poppins-medium">Desafío Latam</h3>
+                </footer>
+            </div>
+            <div class="main__aside-container">
+
+                <div class="main__aside">
+                    <div class="main__aside__cardLeft">
+                        <img class="main__aside__card__img" src="assets/img/posts/Herencia-JS.png" alt="">
+                    </div>
+                    <div class="main__aside__cardRight">
+                        <p class="main__aside__cardRight__fecha poppins-regular">24 Noviembre, 2022</p>
+                        <h4 class="main__aside__cardRight__h4 poppins-bold ">Herencia en JavaScript</h4>
+                        <footer class="main__aside__cardRight__footer">
+                            <img class="main__aside__cardRight__footer__img" src="assets/img/logos/adl.png" alt="">
+                            <h4 class="main__aside__cardRight__footer__h4 poppins-medium">Desafío Latam</h4>
+                        </footer>
+                    </div>
+                </div>
+                <div class="main__aside">
+                    <div class="main__aside__cardLeft">
+                        <img class="main__aside__card__img" src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="">
+                    </div>
+                    <div class="main__aside__cardRight">
+                        <p class="main__aside__cardRight__fecha poppins-regular">24 Noviembre, 2022</p>
+                        <h4 class="main__aside__cardRight__h4 poppins-bold ">Herencia en JavaScript</h4>
+                        <footer class="main__aside__cardRight__footer">
+                            <img class="main__aside__cardRight__footer__img" src="assets/img/logos/adl.png" alt="">
+                            <h4 class="main__aside__cardRight__footer__h4 poppins-medium">Desafío Latam</h4>
+                        </footer>
+                    </div>
+                </div>
+                <div class="main__aside">
+                    <div class="main__aside__cardLeft">
+                        <img class="main__aside__card__img" src="assets/img/posts/reactComponents.png" alt="">
+                    </div>
+                    <div class="main__aside__cardRight">
+                        <p class="main__aside__cardRight__fecha poppins-regular">24 Noviembre, 2022</p>
+                        <h4 class="main__aside__cardRight__h4 poppins-bold ">Herencia en JavaScript</h4>
+                        <footer class="main__aside__cardRight__footer">
+                            <img class="main__aside__cardRight__footer__img" src="assets/img/logos/adl.png" alt="">
+                            <h4 class="main__aside__cardRight__footer__h4 poppins-medium">Desafío Latam</h4>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <div class="container">
+        <div class="container__left">
+            <div class="container__left__titles">
+                <h4 class="container__left__title poppins-bold">Populares</h4>
+            </div>
+            <div class="container__left__cards">
+                <div class="container__left__card">
+                    <img class="container__left__card__img" src="assets/img/posts/vue-components.png" alt="">
+                    <p class="container__left__card__fecha poppins-regular">24 Noviembre, 2022</p>
+                    <h4 class="container__left__card__h4 poppins-bold ">Componentes Vue</h4>
+                    <card-footer class="container__left__card__footer">
+                        <img class="container__left__card__footer__img" src="assets/img/logos/adl.png" alt="">
+                        <h4 class="container__left__card__footer__h4 poppins-medium">Desafío Latam</h4>
+                    </card-footer>
+                </div>
+                <div class="container__left__card">
+                    <img class="container__left__card__img" src="assets/img/posts/api-js.png" alt="">
+                    <p class="container__left__card__fecha poppins-regular">24 Noviembre, 2022</p>
+                    <h4 class="container__left__card__h4 poppins-bold ">Consumo de API con JavaScript</h4>
+                    <card-footer class="container__left__card__footer">
+                        <img class="container__left__card__footer__img" src="assets/img/logos/adl.png" alt="">
+                        <h4 class="container__left__card__footer__h4 poppins-medium">Desafío Latam</h4>
+                    </card-footer>
+                </div>
+                <div class="container__left__card">
+                    <img class="container__left__card__img" src="assets/img/posts/sass.jpg" alt="">
+                    <p class="container__left__card__fecha poppins-regular">24 Noviembre, 2022</p>
+                    <h4 class="container__left__card__h4 poppins-bold ">CSS reutilizable con Sass</h4>
+                    <card-footer class="container__left__card__footer">
+                        <img class="container__left__card__footer__img" src="assets/img/logos/adl.png" alt="">
+                        <h4 class="container__left__card__footer__h4 poppins-medium">Desafío Latam</h4>
+                    </card-footer>
+                </div>
+                <div class="container__left__card">
+                    <img class="container__left__card__img" src="assets/img/posts/bootstrap.png" alt="">
+                    <p class="container__left__card__fecha poppins-regular">24 Noviembre, 2022</p>
+                    <h4 class="container__left__card__h4 poppins-bold ">Componentes Bootstrap</h4>
+                    <card-footer class="container__left__card__footer">
+                        <img class="container__left__card__footer__img" src="assets/img/logos/adl.png" alt="">
+                        <h4 class="container__left__card__footer__h4 poppins-medium">Desafío Latam</h4>
+                    </card-footer>
+                </div>
+            </div>
+        </div>
+        <div class="container__right">
+            <div class="container__right__titles">
+                <h4 class="container__right__title poppins-bold">Categorías</h4>
+            </div>
+            <div class="container__right__categorias">
+                <div class="container__right__categorias__box html">
+                    <img class="container__right__categorias__box__logo" src="assets/img/logos/html.png" alt="">
+                    <h3 class="container__right__categorias__box__nombre poppins-bold">HTML</h3>
+                </div>
+                <div class="container__right__categorias__box js">
+                    <img class="container__right__categorias__box__logo" src="assets/img/logos/js.png" alt="">
+                    <h3 class="container__right__categorias__box__nombre poppins-bold">JavaScript</h3>
+                </div>
+                <div class="container__right__categorias__box css">
+                    <img class="container__right__categorias__box__logo" src="assets/img/logos/css.png" alt="">
+                    <h3 class="container__right__categorias__box__nombre poppins-bold">CSS</h3>
+                </div>
+                <div class="container__right__categorias__box react">
+                    <img class="container__right__categorias__box__logo" src="assets/img/logos/react.png" alt="">
+                    <h3 class="container__right__categorias__box__nombre poppins-bold">React</h3>
+                </div>
+                <div class="container__right__categorias__box vue">
+                    <img class="container__right__categorias__box__logo" src="assets/img/logos/vue.png" alt="">
+                    <h3 class="container__right__categorias__box__nombre poppins-bold">Vue</h3>
+                </div>
+                <div class="container__right__categorias__box bootstrap">
+                    <img class="container__right__categorias__box__logo" src="assets/img/logos/bootstrap-logo.png"
+                        alt="">
+                    <h3 class="container__right__categorias__box__nombre poppins-bold">Bootstrap</h3>
+                </div>
+            </div>
+            <div class="container__right__footer">
+                <a href="#">
+                    <h4 class="container__right__footer__title poppins-regular">Ver todas las categorías ></h4>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <footer class="footer">
+        <div class="footer__left">
+            <img class="footer__left__img" src="assets/img/logos/adl.png" alt="">
+            <h4 class="footer__left__title poppins-bold">Blog FrontEnd</h4>
+        </div>
+        <div class="footer__right">
+            <h4 class="footer__right__h4 poppins-regular">Desafío Latam - 2023</h4>
+        </div>
+    </footer>
+
 </body>
+
 </html>
